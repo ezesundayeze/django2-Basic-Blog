@@ -1,0 +1,10 @@
+html{
+    font-family: 'montserrat';
+    background-color:#e0e0e0;
+}
+
+.title{
+    color:#0404;
+    border: solid 1px rgba(223, 2, 209, 0.267); 
+    width: 100%;
+}
