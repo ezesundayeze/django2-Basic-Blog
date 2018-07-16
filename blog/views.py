@@ -20,3 +20,6 @@ def about(request, slug):
     }
 
     return render(request, 'blog/about.html', context)
+
+def login(request):
+    return render(request, 'registration/login.html')

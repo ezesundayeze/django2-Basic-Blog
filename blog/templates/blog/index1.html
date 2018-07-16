@@ -1,0 +1,30 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <h1>Home page</h1>
+
+    <ul class="collection">
+
+            <li class="collection-item">
+                    {% for post in posts %}
+                      <li class="collection-item"><a href="about/{{post.slug}}">{{post}}</a></li> 
+                   {% endfor %}
+
+            </li>
+           
+    </ul>
+
+   
+
+    <a href="/admin">Admin Login</a>
+                
+
+
+</div>
+
+
+
+
+{% endblock %}
